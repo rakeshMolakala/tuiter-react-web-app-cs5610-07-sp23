@@ -1,0 +1,27 @@
+
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-main-border {
+    border: solid rgb(47, 51, 54) 1px;
+}
+
+.wd-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.wd-white-color {
+    color: white;
+}
+
+.wd-lightgray-color {
+    color: lightgray;
+}
+
+.wd-rounded-corners-all-around-image {
+    border-radius: 15px;
+}

@@ -1,0 +1,149 @@
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-explore-margin-left-right {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.wd-padded-search-bar {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.wd-margin-left {
+    margin-left: 50px;
+}
+
+.wd-padding-fat {
+    padding: 50px;
+}
+
+.wd-border-thin {
+    border-width: 2px;
+    border-color: black;
+}
+
+.wd-left-1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-top: 12px;
+    background-color: black;
+}
+
+.wd-right-1 {
+    height: 60px;
+    display: flex;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: black;
+}
+
+.wd-search-bar {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: darkgray;
+}
+
+.wd-padded-settings-gear {
+    padding-top: 18px;
+    padding-right: 12px;
+    padding-left: 50px;
+}
+
+.wd-highlighted-color {
+    color:rgb(29,161,242);
+    font-size: 15px
+}
+
+.wd-not-highlighted-color {
+    color:rgb(110, 118, 125);
+    font-size: 15px
+}
+
+.wd-block1 {
+    width: 100%;
+    height: 15px;
+    padding: 16px;
+    text-align: center;
+}
+
+.wd-remove-underline {
+    text-decoration: none;
+}
+
+.wd-border-bottom-color {
+    border-bottom: solid rgb(29,161,242) 3px;
+}
+
+.wd-divider {
+    height: 10px;
+    background-color: rgb(110, 118, 125);
+    width: 100%;
+}
+
+.wd-suggestion-border {
+    border: solid rgb(110, 118, 125) 1px;
+}
+
+.wd-height-90{
+    height: 90px;
+}
+
+.wd-height-130{
+    height: 130px;
+}
+
+.wd-light-color-text {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding: 7px;
+    margin-left: 20px;
+}
+
+.wd-light-color {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-suggestion-padding-margin {
+    margin-left: 20px;
+    padding: 7px 7px 7px 7px;
+}
+
+.wd-white-color {
+    color: white;
+    font-size: 13px;
+}
+
+.wd-font-14 {
+    font-size: 14px;
+
+}
+
+.wd-dark-color-text {
+    color: white;
+    font-size: 14px;
+    padding: 7px;
+    margin-left: 20px;
+
+}
+
+.wd-block2 {
+    width: 100%;
+    height: 30px;
+}
+
+.wd-block3 {
+    height: 30px;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+
+
