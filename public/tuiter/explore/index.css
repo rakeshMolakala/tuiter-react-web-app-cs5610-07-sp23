@@ -1,16 +1,27 @@
 .wd-rounded-corners-all-around {
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 .wd-explore-margin-left-right {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.wd-padded-search-bar {
+.wd-top-margin {
+    margin-top: 20px;
+}
+
+
+.wd-search-bar {
+    width: 100%;
+    height: 40px;
+    color: white;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    background-color: #F0F0F0 !important;
+    border:0;
+    outline:0;
 }
 
 .wd-margin-left {
@@ -21,10 +32,10 @@
     padding: 50px;
 }
 
-.wd-border-thin {
-    border-width: 2px;
-    border-color: black;
-}
+/*.wd-border-thin {*/
+/*    border-width: 1px;*/
+/*    border-color: #D0D0D0;*/
+/*}*/
 
 .wd-left-1 {
     width: 100%;
@@ -43,12 +54,7 @@
     background-color: black;
 }
 
-.wd-search-bar {
-    width: 100%;
-    height: 30px;
-    color: white;
-    background-color: darkgray;
-}
+
 
 .wd-padded-settings-gear {
     padding-top: 18px;
@@ -145,5 +151,88 @@
     padding-right: 16px;
 }
 
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
 
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-remove-border {
+    border:0 !important;
+    outline:0 !important;
+}
+
+.wd-custom-active-nav {
+    border-bottom: 3px solid royalblue !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.wd-custom-inactive-nav {
+    color: dimgray !important;
+}
+
+.wd-background-fill-gray {
+    background-color: #F0F0F0 !important;
+}
+
+.wd-even-spread-nav-links {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.wd-custom-active-menu {
+    font-weight: bold !important;
+}
+
+.wd-rounded-bottom {
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+.wd-rounded-top{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.wd-icon-cog {
+    color: black;
+}
+
+.wd-icon-t {
+    color: #1DA1F2;
+}
+
+.wd-tweet-button {
+    background-color: #1DA1F2 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+}
+
+.wd-padding-left-right {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.wd-stack-icon {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.wd-padding-left-zero {
+    padding-left: 0;
+}
 
