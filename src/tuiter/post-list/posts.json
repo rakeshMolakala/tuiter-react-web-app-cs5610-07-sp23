@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "56",
+    "userName": "Elon Musk",
+    "avatarIcon": "../Images/tesla.png",
+    "handle": "elonmusk",
+    "time": "23h",
+    "tuit": "Amazing show about @inspiration4x mission!",
+    "tuitImage": "../Images/inspiration.png",
+    "imageHeading": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+    "imageText": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space ...",
+    "likes": "37.5k",
+    "comments": "4.2k",
+    "retuits": "3.5k"
+  },
+
+  {
+    "_id": "66",
+    "userName": "Jennifer Lawrence",
+    "avatarIcon": "../Images/prof-pic3.png",
+    "handle": "jennifer_1203",
+    "time": "Jan 31",
+    "tuit": "I love this movie!!!",
+    "tuitImage": "../Images/bookmark-img.png",
+    "imageHeading": "Passengers as a career hiccup",
+    "imageText": "I was not pumping out the quality that I should have, Lawrence told Vanity Fair in 2021 about films like Passengers that led her to step away from the spotlight. I just think everybody had gotten sick of me.",
+    "likes": "47.5k",
+    "comments": "7.2k",
+    "retuits": "13.5k"
+  }
+]

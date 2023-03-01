@@ -10,7 +10,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action 
-        ${active==='home' ? 'active' : ''}">
+        ${active === 'home' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa-solid fa-house"></i>
@@ -20,8 +20,8 @@ const NavigationSidebar = (active) => {
                 </div>
             </div>
         </a>
-        <a href="../explore/index.html" class="list-group-item list-group-item-action
-        ${active==='explore' ? 'active' : ''}">
+        <a href="../explore-b/index.html" class="list-group-item list-group-item-action
+        ${active === 'explore' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-hashtag" ></i>
@@ -32,7 +32,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action
-        ${active==='notifications' ? 'active' : ''}">
+        ${active === 'notifications' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-bell"></i>
@@ -43,7 +43,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action
-        ${active==='messages' ? 'active' : ''}">
+        ${active === 'messages' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-envelope"></i>
@@ -54,7 +54,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action 
-        ${active==='bookmarks' ? 'active' : ''}">
+        ${active === 'bookmarks' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-bookmark"></i>
@@ -65,7 +65,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action 
-        ${active==='lists' ? 'active' : ''}">
+        ${active === 'lists' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa fa-list"></i>
@@ -76,7 +76,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action 
-        ${active==='profile' ? 'active' : ''}">
+        ${active === 'profile' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1">
                     <i class="fa-solid fa-user"></i>
@@ -87,7 +87,7 @@ const NavigationSidebar = (active) => {
             </div>
         </a>
         <a href="#" class="list-group-item list-group-item-action mb-3 rounded-bottom
-        ${active==='more' ? 'active' : ''}">
+        ${active === 'more' ? 'active' : ''}">
             <div class="row">
                 <div class="col-1 wd-padding-left-zero">
                     <i class="fa-solid fa-ellipsis"></i>
