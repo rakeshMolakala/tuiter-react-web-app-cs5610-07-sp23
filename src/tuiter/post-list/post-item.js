@@ -20,7 +20,7 @@ const PostItem = (
     return(
         <div className="row mt-2 mb-2">
         <div className="col-1">
-            <img className="rounded-circle" src={`./images/${post.avatarIcon}`} width={48} height={48}/>
+            <img className="rounded-circle" src={`./images/${post.avatarIcon}`} width={48} height={48} alt={"#"}/>
         </div>
         <div className="col-11">
             <div>
@@ -40,7 +40,7 @@ const PostItem = (
             
             <div id="has-text" className="mt-2">
                 <div className="wd-link-image-border" >
-                    <img className="rounded" src={`./images/${post.tuitImage}`} style={{ maxWidth: "100%" }}/>
+                    <img className="rounded" src={`./images/${post.tuitImage}`} style={{ maxWidth: "100%" }} alt={"#"} />
                 </div>
                 <div className="wd-link-text-border p-2">
                     <p>

@@ -9,7 +9,7 @@ const NavigationSidebar = () => {
 
     return (
         <div className="list-group">
-            <a className="list-group-item">Tuiter</a>
+            <a className="list-group-item" href={"#com"}>Tuiter</a>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 Home
             </Link>
@@ -20,27 +20,27 @@ const NavigationSidebar = () => {
                 Labs
             </Link>
             <a className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
+                    ${active === 'notifications'?'active':''}`} href={"#com"}>
                 Notifications
             </a>
             <a className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
+                    ${active === 'messages'?'active':''}`} href={"#com"}>
                 Messages
             </a>
             <a className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
+                    ${active === 'bookmarks'?'active':''}`} href={"#com"}>
                 Bookmarks
             </a>
             <a className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
+                    ${active === 'lists'?'active':''}`} href={"#com"}>
                 Lists
             </a>
             <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+                    ${active === 'profile'?'active':''}`} href={"#com"}>
                 Profile
             </a>
             <a className={`list-group-item
-                    ${active === 'more'?'active':''}`}>
+                    ${active === 'more'?'active':''}`} href={"#com"}>
                 More
             </a>
         </div>
